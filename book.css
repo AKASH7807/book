@@ -1,0 +1,100 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Sans&family=Open+Sans:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background: #fafaf9;
+    font-family: 'Hedvig Letters Sans', sans-serif; 
+}
+nav{
+    width: 100%;
+    height: 50px;
+    background:#ff5a5a;
+    box-shadow: 1px 1px 12px #78fb5c;
+}
+.nav span{
+    line-height: 50px ;
+    font-family:3rem;
+    padding-left: 20px;
+}
+ul{
+    float: right;
+    margin-right: 20px;
+}
+ul li {
+    display: inline-block;
+    padding-right: 20px;
+}
+ul li a{
+    line-height: 50px;
+    text-decoration: none;
+    list-style: none;
+    color: #fafaf9;
+}
+ul li a:hover{
+    cursor: pointer;
+    transition: .2s;
+    color: #353432;
+    text-shadow:2px 2px 4px #ff00ff;
+  
+    
+}
+.books{
+   margin-top: 30px;
+    justify-content:center;
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+.books a{
+    width: 220px;
+    height: 40px ;
+    line-height: 40px;
+    text-align: center;
+    list-style: none;
+    text-decoration: none;
+    border-radius: 10px ;
+    background: #ffcce2;
+    margin-bottom: 10px;
+}
+.notes{
+    width: 900px;
+    height: 450px;
+    background: #ffcce2;
+    border-radius: 10px;
+}
+.notes h2{
+    text-align: center;
+    padding-top: 20px;
+}.notes ul{
+    margin-top: 40px;
+    width: 100%;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+}
+.notes ul li{
+    padding-left: 50px;
+    padding-top: 20px;
+}
+i{
+    padding-right: 10px;
+}
+i:hover{
+    color: #78fb5c;
+}
+@media(max-width:678px){
+    
+    .notes{
+        width: 300px;
+        height: 400px;
+        background: #ffcce2;
+        border-radius: 10px;
+        box-shadow: 4px 4px 5px #ff5a5a;
+    }
+
+}
